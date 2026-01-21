@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- Document type declaration for HTML5 -->
+<html lang="en"> <!-- Root HTML element, language set to English -->
+<head> <!-- Head section contains metadata -->
+    <meta charset="UTF-8"> <!-- Character encoding for the page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
+    <title>Paul Demerin - Portfolio</title> <!-- Page title shown in browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Loads Poppins font from Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body> <!-- Body contains the visible content -->
+    <!-- Sticky Navigation Bar -->
+    <nav> <!-- Navigation element for site menu -->
+        <ul> <!-- Unordered list for navigation links -->
+            <li><a href="#home">Home</a></li> <!-- Link to home section -->
+            <li><a href="#about">About</a></li> <!-- Link to about section -->
+            <li><a href="#skills">Skills</a></li> <!-- Link to skills section -->
+            <li><a href="#projects">Projects</a></li> <!-- Link to projects section -->
+            <li><a href="#connect">Connect</a></li> <!-- Link to connect section -->
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main> <!-- Main content area -->
+        <!-- Home Section -->
+        <section id="home"> <!-- Home section with profile info -->
+            <div class="container"> <!-- Container for max-width and centering -->
+                <img src="images/Headshot.JPG" alt="Paul Demerin headshot" class="profile-img"> <!-- Profile image, circular and bordered -->
+                <h1>Paul Demerin</h1> <!-- Main heading with your name -->
+                <p class="tagline">Undergraduate Student & Aspiring Innovative UX Designer </p> <!-- Subtitle/tagline -->
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about"> <!-- About section with text and image -->
+            <div class="container">
+                <div class="about-content"> <!-- Flex container for text and image -->
+                    <div class="about-text"> <!-- Text content on the left -->
+                        <h2>About Me</h2> <!-- Section heading -->
+                        <p>I’m an undergraduate student at ASU Online, currently based in Seattle and originally from Hawaii. My interest in computers began at 12 when I joined a basic JavaScript coding club with my best friend, sparking a long-term passion for technology. Outside of tech, I enjoy swimming, surfing, video games, and anything that keeps me connected to the water.</p> <!-- First paragraph of about text -->
+                        <p></p>
+                    
+                        <p>My interest in UX/UI design grew during my internship at Starbucks Support Center, where I independently created a UX project in my free time. I designed a fully functional prototype using Figma that addressed a real usability problem with my own proposed solutions, conducted usability testing with peers from diverse work backgrounds, and synthesized the results into a findings share-out presented to senior leaders and managers in corporate.</p> <!-- Second paragraph -->
+                    </div>
+                    <div class="about-image"> <!-- Image container on the right -->
+                        <img src="images/MT.jpeg" alt="About photo"> <!-- About photo, replace src with your image -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills"> <!-- Skills section with skill pills -->
+            <div class="container">
+                <h2>Skills</h2> <!-- Section heading -->
+                <div class="skills-grid"> <!-- Flex grid for skills -->
+                    <span class="skill-pill"><i class="fas fa-palette"></i> UX Design</span> <!-- Individual skill -->
+                    <span class="skill-pill"><i class="fas fa-cube"></i> Prototyping</span>
+                    <span class="skill-pill"><i class="fas fa-share-alt"></i> Collaborative Computing</span>
+                    <span class="skill-pill"><i class="fas fa-code"></i> HTML & CSS</span>
+                    <span class="skill-pill"><i class="fas fa-users"></i> Cross-Functional Collaboration</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects"> <!-- Projects section with current and past projects -->
+            <div class="container">
+                <h2>Current Projects</h2> <!-- Subheading for current projects -->
+                <div class="projects-row"> <!-- Row of project cards -->
+                    <div class="project-card"> <!-- Individual project card -->
+                        <h3>Portfolio Website</h3> <!-- Project title -->
+                        <p>The start of my journey, focusing on showcasing my skills and projects for all to see!</p> <!-- Project description -->
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Coming soon!</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Three</h3>
+                        <p>Coming soon!</p>
+                    </div>
+                </div>
+                <h2>Past Projects</h2> <!-- Subheading for past projects -->
+                <div class="projects-row">
+                    <div class="project-card featured-project">
+                        <h3>UX Prototype (Take over)</h3>
+                        <p><strong>Problem Identification:</strong> During my internship at Starbucks Support Center, I identified a usability issue in an internal tool that was causing issues for retail partners.</p>
+                        <p><strong>Design Change & Prototyping:</strong> Created a fully functional prototype using Figma, proposing innovative solutions to streamline the workflow and improve user experience. Kept design change minimal while introducing new features and keeping familiarity.</p>
+                        <p><strong>Testing & Results:</strong> I conducted usability testing with five peers in the lab from diverse retail backgrounds, gathered feedback, and synthesized findings into a comprehensive presentation with proposed solutions and next steps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect Section -->
+        <section id="connect"> <!-- Connect section with links -->
+            <div class="container">
+                <h2>Connect With Me</h2> <!-- Section heading -->
+                <p>Have questions or want to collaborate? Reach out via GitHub or LinkedIn.</p> <!-- Invite text -->
+                <div class="connect-links"> <!-- Container for links -->
+                    <div class="connect-item">
+                        <a href="https://github.com/SixFloorsUp"><i class="fab fa-github"></i></a>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="connect-item">
+                        <a href="https://www.linkedin.com/in/pauldemerin/"><i class="fab fa-linkedin"></i></a>
+                        <p>LinkedIn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer> <!-- Footer at the bottom -->
+        <div class="container">
+            <p>&copy; 2026 Paul Demerin. All rights reserved.</p> <!-- Copyright notice, update year and name -->
+        </div>
+    </footer>
+</body>
+</html>
